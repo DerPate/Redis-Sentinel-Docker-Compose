@@ -30,3 +30,5 @@ services:
             max_replicas_per_node: 1
     links:
       - redis-master
+    ports:
+      - "6380-6382:26379"
